@@ -105,16 +105,3 @@ function incrementalMedian(array $values): array
     }
     return $result;
 }
-
-echo maxProfit([
-        0 => ['price' => 2, 'purchased' => 3],
-        1 => ['price' => 3, 'purchased' => 0],
-        2 => ['price' => 1, 'purchased' => 1],
-        3 => ['price' => 5, 'purchased' => 4],
-        4 => ['price' => 3, 'purchased' => 1],
-        5 => ['price' => 2, 'purchased' => 2]
-    ]) . PHP_EOL;
-
-echo implode(" ", incrementalMedian([1, 8, 4, 7, 13])) . PHP_EOL;
-
-echo stringCost('bitten', 'meeting', 1, 1, 1) . PHP_EOL;
